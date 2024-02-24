@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
+import Header from './components/Header/Header';
 import './App.css';
 
 function App() {
   return (
-    <h1>Hello Shivansh</h1>
+    <Header />
   );
 }
 
