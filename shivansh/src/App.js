@@ -1,10 +1,8 @@
-// import logo from './logo.svg';
+import './App.css';
+import React from "react";
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import './App.css';
-// import { ThemeProvider, createTheme } from '@mui/material/styles';
-// import CssBaseline from '@mui/material/CssBaseline';
-
+import About from './components/About/About';
 
 
 // export default function App() {
@@ -15,10 +13,13 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Home />
-    </div>
+      <main className='main'>
+        <Home />
+        <About />
+      </main>
+    </>
   );
 }
 
