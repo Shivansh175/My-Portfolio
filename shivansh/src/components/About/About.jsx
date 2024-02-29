@@ -21,7 +21,7 @@ function About(){
 
                     <p className="about__description">
                         There is the about__description of myself
-                        Ill tell about myself later..
+                        I'll tell about myself later..
                     </p>
 
                     <a download="" href={CV} className="button button-flex">Download CV    
